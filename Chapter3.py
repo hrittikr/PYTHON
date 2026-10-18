@@ -80,23 +80,31 @@
 #     print(list)
     
     
-#method2
-a = input("1st Element:")
-b = input("2nd Element:")
-c = input("3rd Element:")
-d = input("4th Element:")
-e = input("5th Element:")
+# #method2
+# a = input("1st Element:")
+# b = input("2nd Element:")
+# c = input("3rd Element:")
+# d = input("4th Element:")
+# e = input("5th Element:")
 
-list1 = [a, b, c, d ,e]
+# list1 = [a, b, c, d ,e]
 
-copy_list1 = list1.copy()
-copy_list1.reverse()
+# copy_list1 = list1.copy()
+# copy_list1.reverse()
 
-if(copy_list1 == list1):
-    print("palindrome")
-    print(list1)
-else:
-    print("Not Palindrome")
+# if(copy_list1 == list1):
+#     print("palindrome")
+#     print(list1)
+# else:
+#     print("Not Palindrome")
     
 
+# #WAP to count the number of students with the "A" grade in the following tuple
+# tup = ("C", "D", "A", "A", "B", "B", "A")
+# print(tup.count("A"))
 
+
+# store the above values in a list & sort them from "A"to "D"
+tup1 = ["C", "D", "A", "A", "B", "B", "A"]
+tup1.sort()
+print(tup1)
